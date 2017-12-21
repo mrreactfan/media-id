@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import MediaidReducer from './reducer_mediaid';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  mediaid: MediaidReducer
 });
 
 export default rootReducer;
